@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "Swades AI: SF Data Extractor",
+  "version": "1.0",
+  "description": "Professional Data Extractor for Salesforce CRM",
+  "permissions": ["storage", "activeTab", "scripting"],
+  "host_permissions": ["https://*.lightning.force.com/*"],
+  "action": {
+    "default_popup": "index.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://*.lightning.force.com/*"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}
