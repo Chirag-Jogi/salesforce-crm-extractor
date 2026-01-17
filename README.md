@@ -141,7 +141,7 @@ Data is managed using `chrome.storage.local` with a structured schema to handle 
 
 ## 📺 Demo Video
 
-
+https://drive.google.com/file/d/1myhF_ft25TLz652kp6_WmN4PPU-mIHeJ/view?usp=sharing
 
 ---
 
